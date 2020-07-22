@@ -9,66 +9,71 @@ html
     title My Diploma Project
 
   body
-  div(class="container")
-    ul(class="nav nav-tabs")
-      li(class="nav-item dropdown")
-        a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для мужчин
-        div(class="dropdown-menu")
-          a(class="dropdown-item" href="#") БРЮКИ
-          a(class="dropdown-item" href="#") РУБАШКИ
-          a(class="dropdown-item" href="#") ОБУВЬ
+    div(class="container")
+      ul(class="nav nav-tabs")
+        li(class="nav-item dropdown")
+          a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для мужчин
+          div(class="dropdown-menu")
+            a(class="dropdown-item" href="#") БРЮКИ
+            a(class="dropdown-item" href="#") РУБАШКИ
+            a(class="dropdown-item" href="#") ОБУВЬ
 
-      li(class="nav-item dropdown")
-        a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для женщин
-        div(class="dropdown-menu")
-          a(class="dropdown-item" href="#") БРЮКИ
-          a(class="dropdown-item" href="#") РУБАШКИ
-          a(class="dropdown-item" href="#") ОБУВЬ
+        li(class="nav-item dropdown")
+          a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для женщин
+          div(class="dropdown-menu")
+            a(class="dropdown-item" href="#") БРЮКИ
+            a(class="dropdown-item" href="#") РУБАШКИ
+            a(class="dropdown-item" href="#") ОБУВЬ
 
-      li(class="nav-item dropdown")
-        a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для детей
-        div(class="dropdown-menu")
-          a(class="dropdown-item" href="#") БРЮКИ
-          a(class="dropdown-item" href="#") РУБАШКИ
-          a(class="dropdown-item" href="#") ОБУВЬ
+        li(class="nav-item dropdown")
+          a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для детей
+          div(class="dropdown-menu")
+            a(class="dropdown-item" href="#") БРЮКИ
+            a(class="dropdown-item" href="#") РУБАШКИ
+            a(class="dropdown-item" href="#") ОБУВЬ
 
-      div(class="im")
-        img(src="/images/Frame.jpg", alt="картинка")   
-        span THE LOOP
-   
-      li(class="nav-item")
-        a(class="nav-link" href="#") Оплата
+        div(class="im")
+          img(src="/images/Frame.jpg", alt="картинка")   
+          span THE LOOP
     
-      li(class="nav-item")
-        a(class="nav-link" href="#") Доставка
-      i(class="fal fa-shopping-basket")
-      img(src="/images/Group.jpg", alt="картинка") 
+        li(class="nav-item")
+          a(class="nav-link" href="#") Оплата
+      
+        li(class="nav-item")
+          a(class="nav-link" href="#") Доставка
+        i(class="fal fa-shopping-basket")
+        img(src="/images/Group.jpg", alt="картинка") 
 
-    section(class="sale") 
-      .container
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          ol(class="carousel-indicators")
-            li(data-target="#carouselExampleCaptions" data-slide-to="0" class="active")
-            li(data-target="#carouselExampleCaptions" data-slide-to="1")
-            li(data-target="#carouselExampleCaptions" data-slide-to="2")
+      section(class="sale") 
+        .container
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            ol(class="carousel-indicators")
+              li(data-target="#carouselExampleCaptions" data-slide-to="0" class="active")
+              li(data-target="#carouselExampleCaptions" data-slide-to="1")
+              li(data-target="#carouselExampleCaptions" data-slide-to="2")
+    
+            div(class="carousel-inner")
+              div(class="carousel-item active")
+                img(src="/images/running_shoes_PNG5823.png" class="d-block w-100" alt="картинка")
+                div(class="carousel-caption d-none d-md-block")
+                  p Зимняя распродажа
+                  h1 СКИДКИ ДО 90%
+                  button(type="button" class="btn btn-warning") СМОТРЕТЬ МОДЕЛИ
+                  
+            
+      
+          a(class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev")
+          span(class="carousel-control-prev-icon" aria-hidden="true")
+          span(class="sr-only") Previous
   
-          div(class="carousel-inner")
-            div(class="carousel-item active")
-              img(src="/images/running_shoes_PNG5823.png" class="d-block w-100" alt="картинка")
-              div(class="carousel-caption d-none d-md-block")
-                p Зимняя распродажа
-                h1 СКИДКИ ДО 90%
-                button(type="button" class="btn btn-warning") СМОТРЕТЬ МОДЕЛИ
-                
-          
-    
-        a(class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev")
-        span(class="carousel-control-prev-icon" aria-hidden="true")
-        span(class="sr-only") Previous
- 
-        a(class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next")
-        span(class="carousel-control-next-icon" aria-hidden="true")
-        span(class="sr-only") Next
+          a(class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next")
+          span(class="carousel-control-next-icon" aria-hidden="true")
+          span(class="sr-only") Next
+
+    div(class="black")
+      h1 БЕСПЛАТНАЯ ДОСТАВКА 
+      span ОТ 3000₽
+      p Сделайте заказ и получите подарок!    
  
 
 

@@ -7,6 +7,31 @@ body {
     border-bottom: 0px solid #dee2e6 !important; 
 }
 
+.black {
+    max-width: 1920px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.black h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-top: 80px;
+    padding-bottom: 23px;
+
+}
+
+.black p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+}
 
 .container {
     max-width: 1110px;
