@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: #ffffff; }
+
+.nav-tabs {
+  border-bottom: 0px solid #dee2e6 !important; }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto; }
